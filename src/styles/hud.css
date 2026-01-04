@@ -1,0 +1,49 @@
+.hud-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../hud-bg.png") no-repeat center center / cover;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.hud-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 20, 40, 0.7);
+}
+
+.hud-scanner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: rgba(0, 255, 255, 0.6);
+  animation: scanner 3s linear infinite;
+}
+
+@keyframes scanner {
+  0% { top: 0; }
+  100% { top: 100%; }
+}
+
+.hud-circle {
+  position: absolute;
+  border: 2px solid rgba(0, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
