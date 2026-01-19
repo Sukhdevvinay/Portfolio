@@ -21,6 +21,14 @@ const Projects = () => {
             links: { demo: "https://sukhdev-editor.vercel.app/", code: "https://github.com/Sukhdevvinay/SukhdevEditor" }
         },
         {
+            title: "Cloud Stoarge Platform",
+            subtitle: "Acees Free Storage upto (5GB)",
+            description: "Developed a real-time Storage Quota System, utilizing MongoDB aggregation pipelines to calculate user consumption on every upload and enforcing strict tier-based storage limits to prevent resource abuse",
+            tech: ["MongoDb (GridFs)", "Node.js","Stream API"],
+            status: "DEPLOYED",
+            links: { demo: "https://github.com/Sukhdevvinay/SukhData_Base", code: "https://github.com/Sukhdevvinay/SukhData_Base" }
+        },
+        {
             title: "Online Multiplayer Game",
             subtitle: "Gaming App",
             description: "Online multiplayer game supporting real-time gameplay, live state synchronization, and spectator mode through event-driven communication.",
@@ -106,3 +114,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
