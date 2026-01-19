@@ -4,40 +4,39 @@ import { ExternalLink, Github, Folder } from 'lucide-react';
 
 const Projects = () => {
     const projects = [
-        {
-            title: "Secured Transactions",
-            subtitle: "End to End Secure Payment App",
-            description: "Production-grade digital payment system supporting atomic peer-to-peer transactions, ledger-based balance management, and failure-safe processing with idempotent APIs",
-            tech: ["MongoDb ACID Properties", "React", "Node.js"],
-            status: "DEPLOYED",
-            links: { demo: "https://sukhbank.vercel.app/", code: "https://github.com/Sukhdevvinay/Digi-Payment" }
-        },
-        {
-            title: "Real-Time Collaborative Editor",
-            subtitle: "Text Editing Platform",
-            description: "Distributed real-time document editor supporting concurrent multi-user edits, presence tracking, and low-latency synchronization using WebSockets and event-driven state updates.",
-            tech: ["MERN Stack", "React", "CanvasAPI"],
-            status: "DEPLOYED",
-            links: { demo: "https://sukhdev-editor.vercel.app/", code: "https://github.com/Sukhdevvinay/SukhdevEditor" }
-        },
-        {
-            title: "Cloud Stoarge Platform",
-            subtitle: "Acees Free Storage upto (5GB)",
-            description: "Developed a real-time Storage Quota System, utilizing MongoDB aggregation pipelines to calculate user consumption on every upload and enforcing strict tier-based storage limits to prevent resource abuse",
-            tech: ["MongoDb (GridFs)", "Node.js","Stream API"],
-            status: "DEPLOYED",
-            links: { demo: "https://github.com/Sukhdevvinay/SukhData_Base", code: "https://github.com/Sukhdevvinay/SukhData_Base" }
-        },
-        {
-            title: "Online Multiplayer Game",
-            subtitle: "Gaming App",
-            description: "Online multiplayer game supporting real-time gameplay, live state synchronization, and spectator mode through event-driven communication.",
-            tech: ["EJS", "Socket.IO", "Node.js"],
-            status: "TESTING",
-            links: { demo: "https://github.com/Sukhdevvinay/Tic-tac-Multiplayer", code: "https://github.com/Sukhdevvinay/Tic-tac-Multiplayer" }
-        }
-    ];
-
+    {
+        title: "Secured Transactions",
+        subtitle: "End to End Secure Payment App",
+        description: "Production-grade digital payment system supporting atomic peer-to-peer transactions, ledger-based balance management, and failure-safe processing with idempotent APIs.",
+        tech: ["MongoDB ACID", "React", "Node.js"],
+        status: "DEPLOYED",
+        links: { demo: "https://sukhbank.vercel.app/", code: "https://github.com/Sukhdevvinay/Digi-Payment" }
+    },
+    {
+        title: "Real-Time Collaborative Editor",
+        subtitle: "Text Editing Platform",
+        description: "Distributed real-time document editor supporting concurrent multi-user edits, presence tracking, and low-latency synchronization using WebSockets.",
+        tech: ["MERN Stack", "Socket.io", "CanvasAPI"],
+        status: "DEPLOYED",
+        links: { demo: "https://sukhdev-editor.vercel.app/", code: "https://github.com/Sukhdevvinay/SukhdevEditor" }
+    },
+    {
+        title: "Cloud Storage Platform",
+        subtitle: "Access Free Storage (up to 5GB)",
+        description: "Real-time Storage Quota System utilizing MongoDB aggregation pipelines to calculate consumption and enforcing strict tier-based limits.",
+        tech: ["MongoDB GridFS", "Node.js", "Stream API"],
+        status: "DEPLOYED",
+        links: { demo: "https://github.com/Sukhdevvinay/SukhData_Base", code: "https://github.com/Sukhdevvinay/SukhData_Base" }
+    },
+    {
+        title: "Online Multiplayer Game",
+        subtitle: "Gaming App",
+        description: "Online multiplayer game supporting real-time gameplay, live state synchronization, and spectator mode through event-driven communication.",
+        tech: ["EJS", "Socket.IO", "Node.js"],
+        status: "TESTING",
+        links: { demo: "https://github.com/Sukhdevvinay/Tic-tac-Multiplayer", code: "https://github.com/Sukhdevvinay/Tic-tac-Multiplayer" }
+    }
+];
     return (
         <section id="projects" className="py-20 relative">
             <div className="container mx-auto px-4">
@@ -114,5 +113,6 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
