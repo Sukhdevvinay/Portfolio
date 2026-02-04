@@ -43,6 +43,14 @@ const Projects = () => {
         tech: ["EJS", "Socket.IO", "Node.js"],
         status: "DEPLOYED",
         links: { demo: "https://sukhdevvinay.github.io/TIC-TAC-TOE/", code: "https://github.com/Sukhdevvinay/Tic-tac-Multiplayer" }
+    },
+    {
+        title: "Expense Tracker",
+        subtitle: "Track Recorder",
+        description: "Record Your Expenses With Free Visualization , Track using Spilts Category Wise Record Tracker",
+        tech: ["EJS", "Chart.js", "Node.js","MongoDB"],
+        status: "LOCAL SERVER RUNNING",
+        links: { demo: "https://github.com/Sukhdevvinay/Expense-Tracker", code: "https://github.com/Sukhdevvinay/Expense-Tracker" }
     }
 ];
     return (
@@ -121,6 +129,7 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
 
