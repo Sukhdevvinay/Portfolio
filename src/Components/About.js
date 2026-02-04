@@ -69,8 +69,15 @@ const About = () => {
               <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
                 <Award  className="text-iron-red" />
                 <div>
-                  <div className="text-xs font-hud text-gray-500">Leetcode</div>
-                  <div className="text-iron-gold font-bold">Knight Badge (1819+) </div>
+                  <a 
+          href="https://leetcode.com/u/Sukhdevvinay/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="hover:text-gray-700 transition-colors"
+      >
+    Leetcode
+  </a>
+                  <div className="text-iron-gold font-bold">Knight Badge (1850+) </div>
                 </div>
               </div>
               
@@ -103,6 +110,7 @@ const About = () => {
 };
 
 export default About;
+
 
 
 
