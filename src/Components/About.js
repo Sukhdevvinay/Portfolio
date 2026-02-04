@@ -58,38 +58,33 @@ const About = () => {
                 Specializing in the MERN stack and modern frontend architectures.
               </p>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
-                <Star className="text-iron-red" />
-                <div>
-                  <div className="text-xs font-hud text-gray-500">Codechef</div>
-                  <div className="text-iron-gold font-bold">3*</div>
-                </div>
-              </div>
-              <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
-                <Award  className="text-iron-red" />
-                <div>
-                  <div className="text-xs font-hud text-gray-500">Leetcode</div>
-                  <div className="text-iron-gold font-bold">Knight Badge (1819+) </div>
-                </div>
-              </div>
-              
-              <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
-                <Award  className="text-iron-red" />
-                <div>
-                  <div className="text-xs font-hud text-gray-500">Leetcode</div>
-                  <div className="text-iron-gold font-bold">Knight Badge (1819+) </div>
-                </div>
-              </div>
-              
-              <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
+          <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
                 <Trophy className="text-iron-red" />
                 <div>
                   <div className="text-xs font-hud text-gray-500">Codeforces</div>
                   <div className="text-iron-gold font-bold">Specialist (1410+) </div>
                 </div>
               </div>
+              
+              <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
+                <Award  className="text-iron-red" />
+                <div>
+                  <div className="text-xs font-hud text-gray-500">Leetcode</div>
+                  <div className="text-iron-gold font-bold">Knight Badge (1819+) </div>
+                </div>
+              </div>
+              
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
+                <Star className="text-iron-red" />
+                <div>
+                  <div className="text-xs font-hud text-gray-500">Codechef</div>
+                  <div className="text-iron-gold font-bold">3* Coder</div>
+                </div>
+              </div>
+              
+            
+              
               
               <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
                 <Trophy className="text-iron-red" />
@@ -108,5 +103,6 @@ const About = () => {
 };
 
 export default About;
+
 
 
