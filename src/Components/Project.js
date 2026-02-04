@@ -7,8 +7,12 @@ export default function Projects() {
       <ul>
         <li>End To End Secure Payment App</li>
         <li>Real-Time Collaborative Editor</li>
+        <li>Cloud Storage App</li>
+        <li>Drawing App</li>
+        <li>Tic-Tac-Toe Game</li>
         <li>Expense Tracker</li>
       </ul>
     </div>
   );
 }
+
