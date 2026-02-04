@@ -25,16 +25,24 @@ const Projects = () => {
         subtitle: "Access Free Storage (up to 5GB)",
         description: "Real-time Storage Quota System utilizing MongoDB aggregation pipelines to calculate consumption and enforcing strict tier-based limits.",
         tech: ["MongoDB GridFS", "Node.js", "Stream API"],
-        status: "DEPLOYED",
+        status: "TESTING",
         links: { demo: "https://github.com/Sukhdevvinay/SukhData_Base", code: "https://github.com/Sukhdevvinay/SukhData_Base" }
+    },
+    {
+        title: "Drawing App",
+        subtitle: "Draw Free Sketches and Show ur Skills",
+        description: "Draw Anything using tools like Pen , Pencil , Highlighter,Graphical shapes like (Rectangle, Square , Triangle)",
+        tech: ["Fabrics.js", "Node.js", "Canvas API"],
+        status: "DEPLOYED",
+        links: { demo: "https://sukhdevvinay.github.io/DrawYatra", code: "https://github.com/Sukhdevvinay/DrawYatra" }
     },
     {
         title: "Online Multiplayer Game",
         subtitle: "Gaming App",
         description: "Online multiplayer game supporting real-time gameplay, live state synchronization, and spectator mode through event-driven communication.",
         tech: ["EJS", "Socket.IO", "Node.js"],
-        status: "TESTING",
-        links: { demo: "https://github.com/Sukhdevvinay/Tic-tac-Multiplayer", code: "https://github.com/Sukhdevvinay/Tic-tac-Multiplayer" }
+        status: "DEPLOYED",
+        links: { demo: "https://sukhdevvinay.github.io/TIC-TAC-TOE/", code: "https://github.com/Sukhdevvinay/Tic-tac-Multiplayer" }
     }
 ];
     return (
@@ -113,6 +121,7 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
 
