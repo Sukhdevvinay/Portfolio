@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { User, Activity, MapPin, Calendar } from 'lucide-react';
+import { User, Activity, MapPin, Calendar,Star, Award, Trophy} from 'lucide-react';
 
 const About = () => {
   return (
@@ -108,4 +108,5 @@ const About = () => {
 };
 
 export default About;
+
 
