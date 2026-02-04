@@ -61,26 +61,44 @@ const About = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
-                <Activity className="text-iron-red" />
+                <Star className="text-iron-red" />
                 <div>
-                  <div className="text-xs font-hud text-gray-500">STATUS</div>
-                  <div className="text-iron-gold font-bold">AVAILABLE FOR HIRE</div>
+                  <div className="text-xs font-hud text-gray-500">Codechef</div>
+                  <div className="text-iron-gold font-bold">3*</div>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
-                <MapPin className="text-iron-red" />
+                <Award  className="text-iron-red" />
                 <div>
-                  <div className="text-xs font-hud text-gray-500">LOCATION</div>
-                  <div className="text-iron-gold font-bold">Uttar Pradesh, India</div>
+                  <div className="text-xs font-hud text-gray-500">Leetcode</div>
+                  <div className="text-iron-gold font-bold">Knight Badge (1819+) </div>
                 </div>
               </div>
+              
               <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
-                <Calendar className="text-iron-red" />
+                <Award  className="text-iron-red" />
+                <div>
+                  <div className="text-xs font-hud text-gray-500">Leetcode</div>
+                  <div className="text-iron-gold font-bold">Knight Badge (1819+) </div>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
+                <Trophy className="text-iron-red" />
+                <div>
+                  <div className="text-xs font-hud text-gray-500">Codeforces</div>
+                  <div className="text-iron-gold font-bold">Specialist (1410+) </div>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
+                <Trophy className="text-iron-red" />
                 <div>
                   <div className="text-xs font-hud text-gray-500">EXPERIENCE</div>
                   <div className="text-iron-gold font-bold">SDE I LEVEL</div>
                 </div>
               </div>
+              
             </div>
           </motion.div>
         </div>
@@ -90,3 +108,4 @@ const About = () => {
 };
 
 export default About;
+
