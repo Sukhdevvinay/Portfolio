@@ -8,8 +8,8 @@ const Skills = () => {
             name: "FRONTEND MODULES",
             icon: <Code className="text-iron-arc" />,
             skills: [
-                { name: "React", level: 90 },
-                { name: "Tailwind CSS / CSS", level: 85 },
+                { name: "React", level: 95 },
+                { name: "Tailwind CSS / CSS", level: 90 },
                 { name: "JavaScript (ES6+)", level: 90 },
                 { name: "HTML5 / CSS3", level: 95 },
             ]
@@ -18,20 +18,20 @@ const Skills = () => {
             name: "BACKEND SYSTEMS",
             icon: <Database className="text-iron-gold" />,
             skills: [
-                { name: "Node.js", level: 80 },
-                { name: "Express.js", level: 80 },
-                { name: "PostgreSQL / SQL", level: 75 },
-                { name: "MongoDB", level: 70 },
+                { name: "Node.js", level: 92 },
+                { name: "Express.js", level: 91 },
+                { name: "PostgreSQL / SQL", level: 90 },
+                { name: "MongoDB", level: 90 },
             ]
         },
         {
             name: "TOOLS & DEPLOYMENT",
             icon: <Terminal className="text-iron-red" />,
             skills: [
-                { name: "Git / GitHub", level: 85 },
-                { name: "Render", level: 65 },
-                { name: "Vercel", level: 60 },
-                { name: "Postman", level: 70 },
+                { name: "Git / GitHub", level: 90 },
+                { name: "Render", level: 92 },
+                { name: "Vercel", level: 92 },
+                { name: "Postman", level: 89 },
             ]
         }
     ];
@@ -109,3 +109,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
