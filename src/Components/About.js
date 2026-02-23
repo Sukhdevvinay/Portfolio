@@ -107,13 +107,36 @@ const About = () => {
             
               
               
-              <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
+        //       <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
+        //         <Trophy className="text-iron-red" />
+        //         <div>
+        //           <div className="text-xs font-hud text-gray-500">EXPERIENCE</div>
+        //           <div className="text-iron-gold font-bold">SDE I LEVEL</div>
+        //         </div>
+        //       </div>
+              
+        //     </div>
+        //   </motion.div>
+        // </div>
+          <div className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-red/30 rounded">
                 <Trophy className="text-iron-red" />
                 <div>
                   <div className="text-xs font-hud text-gray-500">EXPERIENCE</div>
                   <div className="text-iron-gold font-bold">SDE I LEVEL</div>
                 </div>
               </div>
+
+              <a
+                href="/resume.pdf"
+                download
+                className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-arc/40 rounded hover:border-iron-arc hover:shadow-[0_0_12px_#00f3ff40] transition-all"
+              >
+                <Download className="text-iron-arc" />
+                <div>
+                  <div className="text-xs font-hud text-gray-500">DOCUMENT</div>
+                  <div className="text-iron-gold font-bold">Download Resume</div>
+                </div>
+              </a>
               
             </div>
           </motion.div>
@@ -124,6 +147,7 @@ const About = () => {
 };
 
 export default About;
+
 
 
 
