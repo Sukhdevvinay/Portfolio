@@ -51,6 +51,14 @@ const Projects = () => {
         tech: ["EJS", "Chart.js", "Node.js","MongoDB"],
         status: "LOCAL SERVER RUNNING",
         links: { demo: "https://github.com/Sukhdevvinay/Expense-Tracker", code: "https://github.com/Sukhdevvinay/Expense-Tracker" }
+    },
+    {
+        title: "Chess Game",
+        subtitle: "Brainstrominng By Playing this Chess Game",
+        description: "Analyze your Move and Play the Chess Game With Your Friend",
+        tech: ["EJS", "JavaScript", "Node.js","MongoDB"],
+        status: "DEPLOYED",
+        links: { demo: "https://sukhdevvinay.github.io/CHESS/", code: "https://github.com/Sukhdevvinay/CHESS" }
     }
 ];
     return (
