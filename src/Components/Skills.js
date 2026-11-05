@@ -54,6 +54,16 @@ const Skills = () => {
                 { name: "Postman", level: 90 },
                 { name: "Docker", level: 95 },
             ]
+        },
+        {
+            name: "SOFTWARE DESIGN",
+            icon: <Terminal className="text-iron-red" />,
+            skills: [
+                { name: "Low Level Design (LLD) ", level: 90 },
+                { name: "Object-Oriented Programming (OOPS)", level: 92 },
+                { name: "Multithreading", level: 92 },
+                { name: "Concurrency", level: 90 },
+            ]
         }
     ];
 
