@@ -247,7 +247,7 @@ const About = () => {
                   >
                     Codechef
                   </a>
-                  <div className="text-iron-gold font-bold">3* Coder</div>
+                  <div className="text-iron-gold font-bold">4* Coder</div>
                 </div>
               </div>
 
