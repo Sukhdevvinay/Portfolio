@@ -231,7 +231,7 @@ const About = () => {
                 >
                   Leetcode
                 </a>
-                <div className="text-iron-gold font-bold">Knight Badge (1850+)</div>
+                <div className="text-iron-gold font-bold">Knight Badge (1900+)</div>
               </div>
             </div>
 
@@ -260,7 +260,7 @@ const About = () => {
               </div>
 
               <a
-                href="/Vinay_SDE.pdf"
+                href="/RS_cr_12.pdf"
                 download
                 className="flex items-center gap-3 bg-iron-dark/50 p-4 border border-iron-arc/40 rounded hover:border-iron-arc hover:shadow-[0_0_12px_#00f3ff40] transition-all md:col-span-2"
               >
