@@ -24,8 +24,8 @@ const Projects = () => {
         title: "Cloud Storage Platform",
         subtitle: "Access Free Storage (up to 5GB)",
         description: "Real-time Storage Quota System utilizing MongoDB aggregation pipelines to calculate consumption and enforcing strict tier-based limits.",
-        tech: ["MongoDB GridFS", "Node.js", "Stream API"],
-        status: "TESTING",
+        tech: ["MongoDB GridFS", "Node.js", "Stream API","Docker"],
+        status: "LOCAL",
         links: { demo: "https://github.com/Sukhdevvinay/SukhData_Base", code: "https://github.com/Sukhdevvinay/SukhData_Base" }
     },
     {
