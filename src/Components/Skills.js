@@ -22,16 +22,18 @@ const Skills = () => {
                 { name: "Express.js", level: 91 },
                 { name: "PostgreSQL / SQL", level: 90 },
                 { name: "MongoDB", level: 90 },
+                { name: "Redis", level: 90 },
             ]
         },
         {
             name: "TOOLS & DEPLOYMENT",
             icon: <Terminal className="text-iron-red" />,
             skills: [
-                { name: "Git / GitHub", level: 90 },
+                { name: "Git / GitHub ", level: 90 },
                 { name: "Render", level: 92 },
                 { name: "Vercel", level: 92 },
-                { name: "Postman", level: 89 },
+                { name: "Postman", level: 90 },
+                { name: "Docker", level: 95 },
             ]
         }
     ];
