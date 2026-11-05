@@ -5,6 +5,16 @@ import { Code, Database, Terminal, Shield } from 'lucide-react';
 const Skills = () => {
     const skillCategories = [
         {
+            name: "LANGUAGES",
+            icon: <Code className="text-iron-arc" />,
+            skills: [
+                { name: "C/C++", level: 100 },
+                { name: "Python", level: 99 },
+                { name: "Java", level: 98 },
+                { name: "TypeScript", level: 95 },
+            ]
+        },
+        {
             name: "FRONTEND MODULES",
             icon: <Code className="text-iron-arc" />,
             skills: [
@@ -16,33 +26,31 @@ const Skills = () => {
             ]
         },
         {
-            name: "LANGUAGES",
-            icon: <Code className="text-iron-arc" />,
-            skills: [
-                { name: "C/C++", level: 100 },
-                { name: "Python", level: 99 },
-                { name: "Java", level: 98 },
-                { name: "TypeScript", level: 95 },
-            ]
-        },
-        {
             name: "BACKEND SYSTEMS",
             icon: <Database className="text-iron-gold" />,
             skills: [
                 { name: "Node.js", level: 92 },
                 { name: "Express.js", level: 91 },
-                { name: "PostgreSQL / SQL", level: 90 },
-                { name: "MongoDB", level: 90 },
-                { name: "Redis", level: 90 },
+                { name: "Socket.IO", level: 90 },
+                { name: "REST API", level: 90 },
             ]
+        },
+        {
+          name: "DATABASES",
+          icon: <Database className="text-iron-gold" />,
+          skills: [
+                { name: "MongoDb", level: 92 },
+                { name: "MySQL", level: 91 },
+                { name: "Redis", level: 90 },
+          ]
         },
         {
             name: "TOOLS & DEPLOYMENT",
             icon: <Terminal className="text-iron-red" />,
             skills: [
                 { name: "Git / GitHub ", level: 90 },
-                { name: "Render", level: 92 },
-                { name: "Vercel", level: 92 },
+                { name: "CI/CD", level: 92 },
+                { name: "Linux", level: 92 },
                 { name: "Postman", level: 90 },
                 { name: "Docker", level: 95 },
             ]
